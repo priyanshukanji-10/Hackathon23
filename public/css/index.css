@@ -1,5 +1,29 @@
+a{
+    text-decoration: none;
+    color: none;
+}
 .Navbar-container {
-  height: 55px;
+  height: fit-content;
   width: 100%;
-  background-color: #EF8354;
+  background-color: #D5F2E3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-flex{
+    display: inline-block;
+    margin: 5px;
+    font-size: 1.5rem;
+}
+.webname{
+    font-size: 2.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.nav-flex a{
+    color: #60992D;
+    
+}
+.nav-flex a:hover{
+    color:#01110A ;
+    
 }
