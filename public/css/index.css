@@ -7,7 +7,7 @@ a{
   width: 100%;
   background-color: #D5F2E3;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 .nav-flex{
@@ -25,5 +25,12 @@ a{
 }
 .nav-flex a:hover{
     color:#01110A ;
-    
+    font-style: italic;
+    font-size: 1.8rem;
+}
+/* Navbar Css ends */
+.Main-container{
+    height: 1000px;
+    width: 100%;
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_1280.jpg);
 }
