@@ -8,7 +8,9 @@ app.set("view engine", "ejs");
 app.get("/", (req, res) => {
   res.render("index");
 });
-
+app.get("/login", (req, res) => {
+  res.render("login");
+});
 
 const port = 4509;
 app.listen(port, () => {

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projectify|Home</title>
-    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/login.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -16,8 +16,8 @@
   <body>
     <header>
       <div class="Navbar-container">
-        <div class="webname nav-flex ">Projectify</div>
-        <div class="weblogo nav-flex "></div>
+        <div class="webname nav-flex">Projectify</div>
+        <div class="weblogo nav-flex"></div>
         <div class="hardware nav-flex alert">
           <a href="/"><i class="fa-solid fa-microchip"></i>Hardware</a>
         </div>
@@ -42,24 +42,28 @@
     </header>
     <!-- Navbar ends -->
     <div class="Main-container">
-      <div class="description">
-        <p class="des-main-heading"> Welcome to Projectify - Your Student Project Hub!</p>
+      <div class="login-container">
+        <div class="block"><h2>Login</h2></div>
+        <form action="login_process.php" method="post">
+          <label for="username">Username:</label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            required
+          /><br /><br />
 
-Discover a dynamic student community where innovation and creativity thrive. At Projectify, students unite to share, explore, and collaborate on their projects, creating a hub of inspiration and growth.
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            required
+          /><br /><br />
 
-What We Offer:
-
-<p class="des-sub-heading"> Your Projects:</p> Upload and present your projects, whether it's art, research, coding, or more, and receive valuable feedback.
-
-<p class="des-sub-heading">Connect and Collaborate:</p> Network with like-minded students, find collaborators, and expand your horizons.
-
-<p class="des-sub-heading">Mentorship:</p> Gain insights from experienced mentors to guide your academic journey.
-
-<p class="des-sub-heading">Resources:</p> Access a wealth of study materials, tutorials, and tips to excel in your studies.
-
-Join us now and be part of a dynamic community that celebrates student innovation. Start sharing your projects today!
+          <input type="submit" value="Login" />
+        </form>
       </div>
     </div>
-    <script src="js/index.js"></script>
   </body>
 </html>
