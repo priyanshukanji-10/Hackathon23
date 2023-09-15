@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projectify|Signup</title>
+    <link rel="stylesheet" href="css/signup.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="Navbar-container">
+        <div class="webname nav-flex">Projectify</div>
+        <div class="weblogo nav-flex"></div>
+        <div class="hardware nav-flex alert">
+          <a href="/"><i class="fa-solid fa-microchip"></i>Hardware</a>
+        </div>
+        <div class="software nav-flex alert">
+          <a href="/"><i class="fa-solid fa-wifi"></i>Software</a>
+        </div>
+        <div class="latest nav-flex alert">
+          <a href="/"><i class="fa-solid fa-file-lines"></i>Latest</a>
+        </div>
+        <div class="upload nav-flex alert">
+          <a href="/"> <i class="fa-solid fa-upload"></i>New</a>
+        </div>
+        <div class="login nav-flex">
+          <a href="/login"
+            ><i class="fa-solid fa-arrow-right-to-bracket"></i>Login</a
+          >
+        </div>
+        <div class="signup nav-flex">
+          <a href="/"><i class="fa-solid fa-user-plus"></i>Signup</a>
+        </div>
+      </div>
+    </header>
+    <!-- Navbar ends -->
+    <div class="Main-container">
+      <div class="login-container">
+        <p>Login</p>
+        <form action="/" method="post">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required />
+          <br /><br />
+
+          <label for="password"> Password:</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            required
+          /><br /><br />
+          <label for="repassword">Re-enter Password:</label>
+          <input
+            type="password"
+            id="re-password"
+            name="password"
+            required
+          /><br /><br />
+          <input type="submit" value="Login" />
+        </form>
+        You've a account <a href="/login">Login here!</a>
+      </div>
+    </div>
+    <footer>
+      <div class="footer"></div>
+    </footer>
+  </body>
+</html>
