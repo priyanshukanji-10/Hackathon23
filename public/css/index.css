@@ -33,13 +33,14 @@ a {
   width: 100%;
   background-image: url(https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_1280.jpg);
   margin: 0;
+  
 }
 .description {
   color: white;
   font-size: 1.5rem;
   margin: 0;
 }
-.description:hover {
+.description:hover {  
   color: #ffd700;
 }
 .des-main-heading {
