@@ -43,26 +43,29 @@
     <!-- Navbar ends -->
     <div class="Main-container">
       <div class="login-container">
-        <p>Login</p>
+        <div class="flex">
+          <p>Login</p>
+        </div>
         <form action="/" method="post">
-          <label for="username">Username:</label>
-          <input
-            type="text"
-            id="username"
-            name="username"
-            required
-          />
-          <br/><br/>
-
-          <label for="password">Password:</label>
-          <input
-            type="password"
-            id="password"
-            name="password"
-            required
-          /><br /><br />
-
-          <input type="submit" value="Login" />
+          <div class="flex">
+            <input
+              type="text"
+              id="username"
+              name="username"
+              placeholder="Enter Your Username"
+              required
+            />
+          </div>
+          <div class="flex">
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Enter Your Password"
+              required
+            />
+          </div>
+          <div class="flex"><input type="submit" value="Login" /></div>
         </form>
       </div>
     </div>

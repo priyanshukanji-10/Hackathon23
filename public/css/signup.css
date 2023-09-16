@@ -39,7 +39,7 @@ a {
 }
 input[type="text"],
 input[type="password"] {
-  width: 40%;
+  width: 80%;
   padding: 10px;
   margin: 5px 0;
   border: 1px solid #ccc;
@@ -56,9 +56,6 @@ input[type="submit"] {
 }
 input[type="submit"]:hover {
   background-color: #0056b3;
-}
-h2 {
-  display: inline-block;
 }
 .Main-container {
   height: 700px;
@@ -79,11 +76,13 @@ h2 {
   width: 700px;
   height: 400px;
   border-radius: 7%;
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
 }
 .login-container p {
   font-size: 1.5rem;
   font-weight: 600;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
