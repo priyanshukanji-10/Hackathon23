@@ -33,7 +33,9 @@ npm i express path ejs bcrypt
 ```
 npm run Appstart
 ```
-##### Then put this url in any browser in your system 
-```
 
+##### Then put this url in any browser in your system
+
+```
+http://localhost:4509/
 ```
