@@ -14,7 +14,9 @@ app.get("/login", (req, res) => {
 app.get("/signup", (req, res) => {
   res.render("signup");
 });
-
+app.get("/new", (req, res) => {
+  res.render("new");
+});
 const port = 4509;
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
