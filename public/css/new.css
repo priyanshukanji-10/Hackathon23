@@ -1,0 +1,63 @@
+a {
+  text-decoration: none;
+  color: none;
+  cursor: pointer;
+}
+.Navbar-container {
+  height: fit-content;
+  width: 100%;
+  background-color: #d5f2e3;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-flex {
+  display: inline-block;
+  margin: 5px;
+  font-size: 1.5rem;
+}
+.webname {
+  font-size: 2.5rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.nav-flex a {
+  color: #60992d;
+}
+.nav-flex a:hover {
+  color: #01110a;
+  font-style: italic;
+  font-size: 1.8rem;
+}
+/* Navbar ends here */
+.Main-container {
+  height: 700px;
+  width: 100%;
+  background-image: url(https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_1280.jpg);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  height: 45px;
+  width: 150px;
+  background-color: #60992d;
+  border-radius: 5%;
+  font-size: 1.4rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.card a {
+  color: #f7fffc;
+}
+.card:hover {
+  height: 50px;
+  width: 155px;
+  font-size: 1.5rem;
+  background-color: #b6e68c;
+  cursor: pointer;
+}
+.card p :hover {
+  color: black;
+}
