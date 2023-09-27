@@ -80,12 +80,17 @@ h2 {
 .login-container {
   background-color: white;
   width: 500px;
-  height: 250px;
+  height: 300px;
   border-radius: 7%;
 }
 .login-container p {
   font-size: 1.5rem;
   font-weight: 600;
+}
+.Greetings {
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .flex {
   display: flex;
